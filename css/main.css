@@ -1,0 +1,68 @@
+body{
+	background: linear-gradient(to right, rgba(135,0,191,0.45) 10%,rgba(135,0,191,0.5) 20%,rgba(204, 0, 224, 0.8) 85%,rgba(224,0,191,0.9) 100%);
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1
+{
+	background: Transparent;
+}
+ul 
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 500px;
+}
+ 
+li 
+{
+	border: 1px solid #CCC;
+	background: #eee;
+	padding: 5px 10px;
+	color: #000; 
+}
+
+li span 
+{
+	padding-left: 10px;
+}
+
+button i 
+{
+	padding-right: 10px;
+}
+
+.checked 
+{
+	text-decoration: line-through;
+}
+
+li i 
+{
+	cursor: pointer;
+
+}
+
+li i:hover 
+{
+	color: red;
+	font-weight: bolder;
+}
+
+/**************** Responsive ****************/
+@media screen and (max-width:768px) and (min-width:400px)
+{
+	h1
+	{
+		font-size: 20px;
+	}
+	
+}
+@media screen and (max-width:999px)
+{
+	body div 
+	{
+		
+	}
+}

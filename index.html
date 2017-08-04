@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>To-Do List App</title>
+
+  <!-- Inserta tus enlaces aquí -->
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab|Lora|Poiret+One|Raleway|Roboto|Vollkorn" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/animate.css">
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<h1 class="text-center">TODO APP</h1>
+				<form>
+					<div class="form-group">
+						<textarea class="form-control" rows="" id="todoInput" placeholder="Añade tu nueva tarea"></textarea>
+					</div>
+					<div class="form-group">
+						<button type="button" class="btn btn-primary" id="btnAdd" onclick="addNewTask()" onkeyup = "function(event)"><i class="fa fa-plus" aria-hidden="true"></i>Añadir tarea</button>
+					</div>
+				</form>
+			</div>
+			<ul class="col-md-12 col-sm-12 col-xs-12" id="todoList" >
+				<!-- contenedor de la lista de tareas -->	
+			</ul>
+		</div>
+	</div>
+
+
+
+	<script src="js/main.js"></script>
+    
+</body>
+</html>
